@@ -1,0 +1,47 @@
+/* ================
+   src/App.css
+   ================ */
+
+   html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #root, .App {
+    width: 100%; 
+    max-width: $pageWidthDesk;
+    box-shadow: 0 pxToRem(4) pxToRem(8) rgba(0,0,0,0.1);
+    padding: pxToRem(20); 
+  }
+  
+  .App {
+    text-align: center;
+    background: black;
+    border-radius: pxToRem(10);
+  }
+  
+  form div {
+    margin: pxToRem(10);
+  }
+  
+  h2 {
+    color: #4CAF50;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: pxToRem(5);
+    padding: pxToRem(5);
+    color: #FFF;
+    background-color: #4CAF50;
+  }
+
+  

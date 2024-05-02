@@ -1,0 +1,23 @@
+.list.accessible li {
+  background-color: green;
+}
+
+.list.inaccessible li {
+  background-color: red; 
+}
+
+.list ul .spacer {
+  height: pxToRem(5); 
+  background: none;
+  background-color: transparent;
+}
+
+.list ul {
+  padding-left: pxToRem(20);
+}
+
+.list li {
+  padding: pxToRem(5) 0;
+}
+
+
